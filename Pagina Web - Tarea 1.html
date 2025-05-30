@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+
+<body style="background-color: cadetblue;">
+    <p>Este texto y todo el que está delante de este, está dentro de la etiqueta <b>body</b>.</p>
+    <h1>Tarea N°1</h1>
+    <p>En esta página se busca explicar el uso de las etiquetas básicas de HTML.</p>
+    <p>La pagina web debe contener en su HTML una etiqueta llamada <b>head</b> que define el encabezado del HTML, no muestra contenido visual
+       y contiene metadatos, enlaces a hojas de estilo, entre otros.</p>
+    <p>Dentro de <b>head</b> se colocan las etiquetas <b>base</b> que define la URL base de todos los enlaces del docuemento,
+    <br><b>link</b> que vincula recursos externos como hojas de estilo CSS y <b>meta</b> que define metadatos como el autor, descripción, entre otras más.</p>
+    <p></p>
+    <hr>
+
+    <div>
+        <p>Este texto está dentro de la etiqueta <b>div</b>. Esta etiqueta es un contenedor de otras muchas etiquetas.
+        </p>
+        <hr>
+        <header>
+            <p>Para escribir estos textos o párrafos se utiliza la etiqueta <b>p</b>. Además, este párrafo está dento de
+                una etiqueta <b>header</b>. Más adelante aviso cuando el texto ya no es contenido por el <b>header</b>.
+            </p>
+
+            <nav>
+                <p>Este texto está dentro de una etiqueta <b>nav</b>.</p>
+                <ul>
+                    <p>Este texto está dentro de una etiqueta <b>ul</b>.</p>
+                    <li><a href="#">Opción 1</a></li>
+                    <li><a href="#">Opción 2</a></li>
+                    <p>Estas opciones estan dentro de la etiqueta <b>li</b>, por estar dentro de la etiqueta <b>ul</b>
+                        las siguientes
+                        opciones se muestran sin ninguna numeración u orden en especifico.</p>
+                </ul>
+
+                <ol>
+                    <li><a href="#">Opción 1</a></li>
+                    <li><a href="#">Opción 2</a></li>
+                    <p>Este es el mismo caso que el anterior, solo que en lugar de que las opciones esten dentro de la
+                        etiqueta <b>ul</b> estan en una
+                        <b>ol</b>. Las opciones son mostradas con una numeración y con un orden en específico.
+                    </p>
+                </ol>
+            </nav>
+            <p>Aquí ya finaliza el uso de una etiqueta <b>header</b>.</p>
+        </header>
+        <hr>
+
+        <section>
+            <p>Este texto está dentro de una etiqueta <b>section</b>, se usa para agrupar contenido relacionado
+                temáticamente dentro de una página web.</p>
+            <article>
+                <p>Este texto esta dentro una etiqueta <b>article</b>. Este define contenido independiente y
+                    reutilizable.</p>
+            </article>
+            <p>Este texto todavía está dentro de la etiqueta <b>section</b> pero fuera de <b>article</b>. Apartir de
+                aquí ya no se utiliza la <b>section</b>.</p>
+        </section>
+        <hr>
+
+        <div>
+            <aside>
+                <p>Este texto entrá dentro de la etiqueta <b>aside</b>.
+                    Funciona para definir contenido complementario o secundario respecto al contenido principal de la
+                    página.</p>
+            </aside>
+            <hr>
+
+            <hgroup>
+                <p>Este texto está dentro de una etiqueta <b>hgroup</b>. Esta sirve para agrupar un título principal y
+                    uno o más subtítulos.</p>
+                <h1>Este texto es un titulo presentado con la etiqueta <b>h1</b>.</h1>
+                <h2>Este texto es un titulo presentado con la etiqueta <b>h2</b>.</h2>
+                <h3>Este texto es un titulo presentado con la etiqueta <b>h3</b>.</h3>
+                <h4>Este texto es un titulo presentado con la etiqueta <b>h4</b>.</h4>
+                <h5>Este texto es un titulo presentado con la etiqueta <b>h5</b>.</h5>
+                <h6>Este texto es un titulo presentado con la etiqueta <b>h6</b>.</h6>
+            </hgroup>
+            <hr>
+
+            <h2>Ejemplo de etiquetas para modificar textos:</h2>
+            <p>Aqui se mostrara como hacer un salto de línea <br>para lograrlo se usa la etiqueta <b>br</b>.</p>
+            <p><b>Este texto es con negrita usando la etiqueta b.</b></p>
+            <p></p><strong>Este texto es importante usando la etiqueta strong, es parecido a la etiqueta b.</strong></p>
+            <p></p><i>Este texto es con formato en cursiva usando <b>i</b>.</i></p>
+            <p><em>Este texto es enfatizado usando <b>em.</b>Es parecido a usar <b>b</b>.</em></p>
+            <p><small>Este texto es pequeño usando <b>small</b>.</small></p>
+            <p>Las palabras <mark>pan</mark> y <mark>papas tostadas</mark> se marcan con la etiqueta <b>mark</b>.</p>
+            <p>Se tacha la palabra <del>azul</del> con la etiqueta <b>del</b>.</p>
+            <p>se subraya la palabra <ins>rojo</ins> con la etiqueta <b>ins</b>.</p>
+            <p>Este es un texto <sub>subscrito</sub> con la etiqueta <b>sub</b>.</p>
+            <p>Este texto es con <sup>superíndice</sup>con la etiqueta <b>sup</b>.</p>
+            <p>El siguiente texto será presentado utilizando la etiqueta <b>pre</b>.</p>
+            <pre>
+            Lunes     Martes    Miércoles
+            08:00     Reunión   Libre
+            10:00     Taller    Estudio
+            </pre>
+            <p>Se utiliza la etiqueta <b>cite</b> para citar el título de una obra, canción, película, serie, entre
+                otros. Ejemplo el siguiente texto:</p>
+            <cite>El Principito</cite>
+            <p>La palabra <dfn>HTML</dfn> esta marcada por la etiqueta <b>dfn</b>. Esta sirve para resaltar la primera
+                aparición o término importante de un texto.</p>
+
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                <p>Este texto está dentro de la etiqueta <b>blockquote</b>, que funciona para citas de otras fuentes.
+                </p>
+                <q>Y este texto se le está aplicando la etiqueta <b>q</b>, que permite mostrar las comillas dobles de
+                    una cita</q>
+            </blockquote>
+
+
+            <p>Si se coloca el mouse en la palabra <b>quien</b>, surge una etiqueta que dice Matías Chacón, esto se
+                logra por el uso de <b>abbr</b>.
+                <br>El estudiente <abbr title="Matías Chacón">quien</abbr> es el que está desarrollando esta página web.
+            </p>
+
+
+            <p>El siguiente texto sera presentado utilizando la etiqueta <b>code</b>. Se usa para escribir texto que
+                representa código informático,
+                además, si el código es muy grande se debe contener en una etiqueta <b>pre</b>.
+                <br><code>system.out.print("Hola Mundo");</code>
+            </p>
+
+            <p>La etiqueta <b>kbd</b> funciona para representar una entrada del usuario desde el teclado.
+                <br>Presiona <kbd>Ctrl</kbd> + <kbd>S</kbd> para guardar el documento.
+            </p>
+
+            <p>La etiqueta <b>time</b> se usa para representar una fecha u hora.
+                <br>El evento es el <time>22 de mayo del 2025</time>.
+            </p>
+
+            <p>La etiqueta <b>data</b> sirve para asociar un valor entendible por el humano a un valor que sea
+                interpretado por la maquina.
+                <br>Producto: <data value="12345">Audífonos Pro</data>
+                <br>En el texto anterior el usuario ve <q>Audífonos Pro</q> pero la máquina entiende <q>12345</q>. Esto
+                ocurre porque se le
+                agrega el atributo value a data y se le asigna el valor de 12345.
+            </p>
+
+            <p>La etiqueta <b>span</b> aplica estilos a un texto deseado, para así resaltarlo.
+                <br><span style="color: red;">Ejemplo de texto en color rojo</span>.
+            </p>
+
+            <p>Aquí terminan las etiquetas que modifican textos.</p>
+            <hr>
+        </div>
+
+        <div class="ParteC">
+            <p>Ahora se presentarán las etiquetas para estructur grupos</p>
+
+            <p>La etiqueta <b>dl</b> usa para crear listas de términos y sus descripciones.</p>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lenguaje de marcado para estructurar páginas web.</dd>
+
+                <dt>CSS</dt>
+                <dd>Lenguaje para dar estilo a documentos HTML.</dd>
+            </dl>
+            <p>El texto anterior esta dentro de la etiqueta <b>dl</b>, pero las palabras <ins>HTML</ins> y
+                <ins>CSS</ins> están dentro
+                de la etiqueta <b>dt</b>.
+                <br>Y las oraciones están contenidas cada una en una etiqueta <b>dd</b>. Esto se da porque las etiquetas
+                <b>dt y dd</b> se usan junto con la <b>dl</b>.
+                <br>La etiqueta <b>dt</b> se usa para representar una palabra que va a ser explicada y <b>dd</b> es el
+                concepto de esta palabra.
+            </p>
+
+            <p>A continuación se presenta una imagen y una descripción.</p>
+            <figure>
+                <img src="Imagenes/system-settings.png" alt="Herremientas en forma de X">
+                <figcaption>Dos herramientas formando una X</figcaption>
+            </figure>
+            <p>La imagen se presenta con la etiqueta <b>img</b> y la descripción con <b>figcaption</b>. Estás dos
+                etiquetas están contenidas dentro
+                de la etiqueta <b>figure</b>. Esta contiene imágenes, diagramas, fotos, videos o código, junto con su
+                descripción.
+            </p>
+
+            <details>
+                <summary>Más información</summary>
+                <p>Por defecto, el contenido de la etiqueta <b>details</b> está oculto. Al hacer click sobre <ins>Más
+                        información</ins>,
+                    se muestra este texto que esta contenido en la etiqueta <b>details</b> y la frase <ins>Más
+                        información</ins> está
+                    dentro de la etiqueta <b>summary</b>.</p>
+            </details>
+
+            <p></p>
+            <dialog id="miDialogo">
+                <p>Este es un cuadro de diálogo está contenido dentro de la etiqueta <b>dialog</b> y los botónes son
+                    mostrados con la etiqueta
+                    <b>button</b>.
+                </p>
+                <button onclick="document.getElementById('miDialogo').close()">Cerrar</button>
+            </dialog>
+            <button onclick="document.getElementById('miDialogo').showModal()">Abrir diálogo</button>
+        </div>
+
+        <div>
+            <p>El siguiente texto lleva a una página web, esto se logra gracias al uso de la etiqueta <b>a</b>.
+                <br><a href="https://www.w3schools.com/html/default.asp">Aquí estoy siguiendo lo pasos para crear una
+                    página web</a>
+            </p>
+
+            <p>Con las etiquetas <b>map</b> y <b>area</b>, voy a explicar porque su uso es un poco complejo por ahora.
+                <br><b>map</b> contiene una imagen y dentro de esta etiqueta se encuentra otra etiqueta llamada
+                <b>area</b>
+                que permite enlazar paginas web, información, entre otras cosas más al hacer click sobre la imágen.
+                <br>Ejemplo a continuación:
+            </p>
+
+            <img src="Imagenes/planeta-tierra2.png" usemap="#mapaPlaneta" alt="Planeta Tierra">
+            <map name="mapaPlaneta">
+                <area shape="default" coords="0" href="https://science.nasa.gov/earth/facts/" alt="Tierra">
+            </map>
+
+            <div class="picture">
+                <p>La siguiente imágen se muestra gracias al uso de la etiqueta <b>picture</b>, pero dentro de esta
+                    tiene que estar la etiqueta
+                    <b>source</b> que permite colocar la dirección de una imagen en internet.
+                </p>
+                <picture>
+                    <source
+                        srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKKZuI8PEN-NxmOfGoLQ5gUFwfPyPIwbfV2A&s"
+                        type="image/webp">
+                    <img src="Imagenes/Titulo Aplicación.png" alt="Ejemplo adaptable">
+                </picture>
+            </div>
+
+            <p>La etiqueta <b>canvas</b> define una zona de dibujo en 2D o 3D (con JavaScript). Se usa para juegos,
+                gráficos, animaciones, etc.
+                De esta no muestro un ejemplo.</p>
+
+            <p>La etiqueta <b>svg</b> permite crear gráficos vectoriales como el siguiente:</p>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" fill="green" />
+            </svg>
+        </div>
+
+        <div class="multimedia">
+            <p>Este audio de una canción, es presentado gracias a la etiqueta <b>audio</b>.</p>
+            <audio controls>
+                <source src="Audios/Castle in the sky.mp3" type="audio/mp3">
+                Tu navegador no soporta audio.
+            </audio>
+
+            <p>Este video se muestra gracias a la etiqueta <b>video</b>. La etiqueta <b>track</b> funciona para agregar
+                subtitulos.</p>
+            <video width="400" controls>
+                <source src="Videos/アニメ『怪獣８号』ノンクレジットED｜OneRepublic「Nobody」｜毎週土曜23時～放送・配信.mp4" type="video/mp4">
+                <track src="Subtitulos/Subtitulos.vtt" kind="subtitles" srclang="en" label="English" default>
+                Tu navegador no soporta video.
+            </video>
+
+            <p>La etiqueta <b>iframe</b> permite mostrar contenido externo como otros sitios web, mapas, videos de
+                YouTube, documentos, etc.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DNC28dpB9_Y"
+                title="One Piece - Opening 25 | 4K | 60FPS | Tv-Size" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>El siguiente texto es mostrado con la etiqeuta <b>address</b> que permite mostrar información importante sobre la pagina web.</p>
+        <address>
+            Escrito por Matías Chacón Alfaro.<br>
+            <img src="Imagenes/Icono.jpg" alt="imagen">
+            <br>Puedes contactarme en: <a href="mailto:juan@example.com">pepe@example.com</a>
+            <br>Dirección: Calle los Ratones, Ciudad Gumball.
+        </address>
+    </footer>
+</body>
+</html>
